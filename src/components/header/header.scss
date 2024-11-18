@@ -1,0 +1,30 @@
+.header{
+    position: relative;
+    width: 1250px;
+    height: 85px;
+    margin-top: 1px ;
+    border: 1px solid #D9D9D9;
+}
+
+.header img {
+    position: absolute;
+    width: 125px;
+    height: 25px;
+    top: 29px;
+    left: 70px;
+}
+.links{
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    top: 31px;
+    left: 492px;
+   
+}
+
+.links span{
+   color: #444444;
+   font-size: 15px;
+   font-weight: 600;
+}
+
