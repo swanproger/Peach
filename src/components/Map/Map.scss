@@ -1,0 +1,111 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.map__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1250px;
+    height: 80px;
+    box-shadow: 0px 0px 40px 0px #0000000F;
+}
+
+.header__title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #444444;
+}
+
+.header__cities {
+    width: 736px;
+    height: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.map__container {
+    position: relative;
+    width: 1190px;
+    height: 604px;
+}
+
+.map {
+    width: 100%;    
+    height: 100%;
+}
+.allСities {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.region {
+    position: absolute;
+    display: none;
+}
+
+.region.moscow {
+    left: 115px;
+    top: 223px;
+}
+
+
+.region.severozapad {
+    top: 122.5px;
+/* 
+top -171px
+left -33px
+*/
+}
+
+.region.dalvostok {
+    top: 473.66px;
+    left: 925.13px;
+}
+
+.region.sibir {
+    top: 436.66px;
+    left: 438.5px;
+}
+
+.region.ug {
+    top: 318.1px;
+    left: 14.38px;
+}
+
+.region.ural {
+    top: 288.1px;
+    left: 282.9px;
+
+    
+}
+
+.region.volga {
+    top: 258.96px;
+    left: 157.17px;
+}
+
+.region.centr {
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

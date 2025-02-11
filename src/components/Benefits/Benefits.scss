@@ -1,0 +1,122 @@
+.benefits__container {
+    display: flex;
+    justify-content: center;
+}
+
+.benefits {
+    position: relative;
+    width: 1110px;
+    height: 861px;
+    box-shadow: 0px 0px 40px 0px #0000000F;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.benefits__vector {
+    position: absolute;
+    width: 1050px;
+    height: 0px;
+    top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    opacity: 10%;
+    border: 1px solid #000000
+}
+
+
+.benefits__text-first {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #444444;  
+    margin-top: 30px;
+}
+
+.icons__first__container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.icons__first{
+    display: flex;
+    justify-content: center;
+    width: 954px;
+    height: 160px;
+    gap: 16px;
+    margin-top: 120px;
+}
+
+
+.circle__container__first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 178px;
+    height: 160px;
+    gap: 10px;
+}
+////////////////////////////////////////////
+.benefits__text-second {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #444444; 
+    margin-top: 159px;
+}
+
+.benefits__text-third {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #B01736;
+}
+///////////////////////////////////////////
+.icons__second__container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.icons__second {
+    display: flex;
+    justify-content: center;
+    width: 566px;
+    height: 140px;
+    gap: 16px;
+    margin-top: 60px;
+}
+
+
+.circle__container__second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 178px;
+    height: 140px;
+    gap: 10px;
+}
+
+
+.circle {
+    position: relative;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 50%;
+   
+}   
+
+.icon {
+    position: absolute;
+}
+
+
+
+

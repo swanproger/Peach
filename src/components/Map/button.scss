@@ -1,0 +1,13 @@
+.header__cities__button {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #444444;
+}
+.header__cities__button:hover {
+    cursor: pointer;
+}
+
+.header__cities__button.active {
+    color: #A30C33;
+}

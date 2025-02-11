@@ -1,4 +1,9 @@
+@font-face {
+  font-family: "proximanovacond_regular";
+  src: url("./fonts/proximanovacond_regular.ttf");
+}
 * {
+font-family: "proximanovacond_regular";
 margin: 0;
 padding: 0;
 box-sizing: border-box;
@@ -17,3 +22,5 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+

@@ -1,0 +1,26 @@
+.buisness {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.buisness__title {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 56px;
+    text-decoration-skip-ink: none;
+    color: #444444;
+}
+
+.card-container {
+    display: grid;
+    width: 1250px;
+    height: 825px;
+    margin-top: 10px;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+
